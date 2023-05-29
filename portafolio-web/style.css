@@ -93,7 +93,7 @@ padding-top: 10px;
   width: 60px;
   margin: 10px 10px 15px 20px;
   overflow: hidden;
-  background: #fff;
+  background: #ffffff;
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(174, 101, 101, 0.401);
@@ -291,3 +291,131 @@ padding-top: 10px;
     color: #ffffff;
     font-family: 'Rochie', sans-serif;
   }
+
+
+  .portfolio-item .portfolio-btn {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+    opacity: 0;
+    transition: .5s;
+  }
+  
+  .portfolio-item:hover .portfolio-btn {
+    opacity: 1;
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+    top: 30px;
+    left: 30px;
+  }
+
+  #portfolio-flters .btn-outline-primary {
+    color: #ae7373;
+    border-color: #ebd4d4;
+ }
+ 
+ #portfolio-flters .btn-outline-primary.active {
+    background-color: #ae7373;
+    color: #ffffff;
+ }
+ 
+ #portfolio-flters .btn-outline-primary:hover {
+  background-color: #ae7373;
+  color: #ffffff;
+}
+
+.portfolio-btn:hover {
+  background-color: #e5c0c0 !important;
+}
+
+
+
+.portfolio-item .portfolio-btn {
+  background-color: #ebc5c5;
+}
+
+.portfolio-btn:hover {
+  background-color: #ae7373 !important;
+}
+
+#load-more-button:hover,
+#load-more-button:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+#load-less-button:active,
+#load-less-button:focus,
+#load-less-button:hover {
+  outline: none;
+  box-shadow: none;
+}
+.fondo {
+  background-color: #ffffff;
+}
+
+.row {
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.vertical-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ae7373;
+  color: #ffffff;
+  font-size: 24px;
+  transition: background-color 0.3s;
+}
+
+.button-info {
+  font-size: 14px;
+}
+
+.vertical-button:hover {
+  background-color: #d59d9d;
+}
+
+.small-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.custom-checkbox input[type="checkbox"]::before {
+  border-color: #ae7373; /* Cambia el color del borde del cuadro */
+  background-color: #ae7373; /* Cambia el color de fondo del cuadro */
+}
+
+.custom-checkbox input[type="checkbox"]:checked::before {
+  border-color: #be8787; /* Cambia el color del borde del cuadro cuando está seleccionado */
+  background-color: #be8787; /* Cambia el color de fondo del cuadro cuando está seleccionado */
+}
+
+
+.text-custom-color {
+  color: #ae7373 !important;
+}
+
+
+
+
+
+
+
+
+
+ 
