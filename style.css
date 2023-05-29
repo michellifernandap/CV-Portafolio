@@ -17,6 +17,25 @@ body {
   overflow-x: hidden;
 }
 
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ae7373;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.floating-button:hover {
+  background-color: #e5c0c0;
+}
 
 .logo-stationary{
 margin-left: 20px;
@@ -33,7 +52,7 @@ padding-top: 10px;
   src: url('fonts/champagne-limousines.ttf') format('truetype');
 }
 .rochie-font {
-  font-family: 'Rochie', sans-serif;
+  font-family: 'Rochie';
   font-size: 50px;
   color: #ae7373;
   margin: 0px;
@@ -41,7 +60,7 @@ padding-top: 10px;
 
 #text-effect {
   display: inline-block;
-  font-family: 'Champagne & Limousines', sans-serif;
+  font-family: 'Champagne & Limousines';
   font-size: 40px;
   white-space: pre;
   color: #ffffff;
@@ -50,7 +69,7 @@ padding-top: 10px;
 
 .talento {
   display: inline-block;
-  font-family: 'Champagne & Limousines', sans-serif;
+  font-family: 'Champagne & Limousines';
   font-size: 50px;
   color: #ae7373;
   margin: 0px;
@@ -209,7 +228,7 @@ padding-top: 10px;
 */
 
 .about {
-  font-family: 'Rochie', sans-serif;
+  font-family: 'Rochie' !important;
   font-size: 30px;
   color: #ae7373;
 }
@@ -221,7 +240,7 @@ padding-top: 10px;
   }
 
 
-.acerca{
+.acerca .spam-text{
   font-family: 'Champagne & Limousines';
   font-weight: bold;
   font-size: 20px;
@@ -261,7 +280,7 @@ padding-top: 10px;
   
  
   .Designer{
-    font-family: 'Rochie', sans-serif;
+    font-family: 'Rochie';
     color: #ae7373;
     font-size: 30px;
   }
@@ -289,7 +308,7 @@ padding-top: 10px;
   }
   .education{
     color: #ffffff;
-    font-family: 'Rochie', sans-serif;
+    font-family: 'Rochie';
   }
 
 
@@ -328,7 +347,7 @@ padding-top: 10px;
 }
 
 .portfolio-btn:hover {
-  background-color: #e5c0c0 !important;
+  background-color: #ebd4d4 !important;
 }
 
 
@@ -338,8 +357,10 @@ padding-top: 10px;
 }
 
 .portfolio-btn:hover {
-  background-color: #ae7373 !important;
+  background-color: rgba(174, 115, 115, 0.5) !important;
 }
+
+
 
 #load-more-button:hover,
 #load-more-button:focus {
@@ -411,11 +432,72 @@ padding-top: 10px;
 }
 
 
+.card-title, .card-text, .btn {
+  font-family: 'Champagne & Limousines';
+}
+
+.card-title {
+  font-family: 'Rochie';
+}
+
+
+.form-outline input {
+  border-color: #ae7373; /* Cambia el color del borde a #ae7373 */
+}
+
+.form-label
+.form-check {
+  font-family: 'Champagne & Limousines', 'Rochie'; /* Cambia la tipografía a 'Champagne & Limousines' */
+  font-weight: bold;
+}
+
+
+.container-fluid,
+.button-info {
+  font-family: 'Champagne & Limousines', 'Rochie'; /* Cambia la tipografía a 'Champagne & Limousines' */
+}
+
+.spam-text {
+  font-family: "Champagne & Limousines", 'Rochie';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.list-inline li a {
+  color:#d59d9d; /* Cambia #ff0000 al color deseado */
+}
+
+.list-inline li a:hover {
+  color: #e5c0c0; /* Cambia #00ff00 al color deseado para el hover */
+}
 
 
 
+.list-inline .btn.btn-todo {
+  color: #d59d9d; /* Cambia #00ff00 al color de tipografía deseado */
+}
+.list-inline .btn.btn-todo a {
+  color: #ffffff; /* Cambia #00ff00 al color de tipografía deseado */
+}
 
 
+.list-inline .btn.btn-otros {
+  color: #e5c0c0; /* Cambia #00ff00 al color de tipografía deseado */
+  background-color: #e5c0c0;
+}
+.list-inline .btn.btn-otros a {
+  color: #ffffff; /* Cambia #00ff00 al color de tipografía deseado */
+}
 
 
- 
+button.btn.btn-block {
+  background-color: #ae7373; /* Cambia #ae7373 al color de fondo deseado */
+}
+
+button.btn.btn-block:active,
+button.btn.btn-block:focus,
+button.btn.btn-block:hover {
+  outline: none;
+  box-shadow: none;
+}
+

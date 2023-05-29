@@ -26,7 +26,7 @@ async function loadImages() {
             <p class="card-text">Precio: $${image.precio}</p>
             <p class="card-text">Existencia: ${image.existencia}</p>
             <div class="card-body d-flex align-items-end">
-              <button type="button" class="btn d-block mx-auto mb-3" style="border: 2px solid #ae7373; color: #ae7373;">♡ LO QUIERO ♡</button>
+              <button type="button" class="btn d-block mx-auto mb-3" style="border: 1px solid #ae7373; color: #ae7373;">♡ LO QUIERO ♡</button>
             </div>
           </div>
         </div>

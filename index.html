@@ -10,6 +10,8 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Champagne+&+Limousines&display=swap" rel="stylesheet">
+
 
 
    </head>
@@ -22,6 +24,10 @@
             </a>
          </div>
       </nav>
+
+      <div class="floating-button" onclick="scrollToTop()">
+         <i class="fas fa-arrow-up"></i>
+      </div>
 
       <div class="container-fluid pt-4 pb-5">
          <div class="row align-items-center mx-auto">
@@ -45,35 +51,35 @@
                  <div class="icon">
                    <i class="far fa-file-alt"></i>
                  </div>
-                 <span>Resumen</span>
+                 <a href="#resumen">Resumen</a>
                </div>
        
                <div class="button">
                  <div class="icon">
                    <i class="fab fa-github"></i>
                  </div>
-                 <span>Github</span>
+                 <a href="https://github.com/michellifernandap?tab=repositories">Github</a>
                </div>
        
                <div class="button">
                  <div class="icon">
                    <i class="fas fa-folder"></i>
                  </div>
-                 <span>Portafolio</span>
+                 <a href="#portafolio">Portafolio</a>
                </div>
        
                <div class="button">
                  <div class="icon">
                    <i class="fas fa-tools"></i>
                  </div>
-                 <span>Servicios</span>
+                 <a href="#Servicios">Servicios</a>
                </div>
        
                <div class="button">
                  <div class="icon">
                    <i class="fas fa-envelope"></i>
                  </div>
-                 <span>Contacto</span>
+                 <a href="#Contacto">Contacto</a>
                </div>
              </div>
            </div>
@@ -86,11 +92,12 @@
                I'm <span id="text-effect"></span>
              </p>
              <div class="social-icons pt-2 iconos">
-               <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-               <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-               <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-               <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
-               <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+               <a href="https://www.facebook.com/michelligraphic/" class="social-icon"><i class="fab fa-facebook"></i></a>
+               <a href="https://twitter.com/Stationary_WL" class="social-icon"><i class="fab fa-twitter"></i></a>
+               <a href="https://www.instagram.com/michelligraphic/" class="social-icon"><i class="fab fa-instagram"></i></a>
+               <a href="https://www.linkedin.com/in/michelli-fernanda-7835691b5/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+               <a href="https://github.com/michellifernandap?tab=repositories" class="social-icon"><i class="fab fa-github"></i></a>
+               <a href="https://www.behance.net/dreamsbigmf" class="social-icon"><i class="fab fa-behance"></i></a>
              </div>
            </div>
 
@@ -224,7 +231,7 @@
       <div class="container-fluid py-5 education" id="qualification">
          <div class="container">
             <div class="container pb-4">
-               <h2 class="about text-center education">Educación y Experiencia</h2>
+               <h2 class="about text-center education" id="resumen">Educación y Experiencia</h2>
                <hr class="mx-auto" style="width: 15%; border: none; border-top: 8px solid; margin-top: 0; margin-bottom: 0px; color: #ffffff;" />
                <hr class="mx-auto" style="width: 80%; border: none; border-top: 3px solid; margin-top: 0; margin-bottom: 10px; color: #ffffff;" />
                <div class="position-relative d-flex align-items-center justify-content-center">
@@ -286,7 +293,7 @@
    <div class="fondo container-fluid pt-5 pb-3" id="portfolio">
       <div class="container">
          <div class="container pb-4">
-            <h2 class="about text-center">Portafolio</h2>
+            <h2 class="about text-center" id="portafolio">Portafolio</h2>
             <hr class="mx-auto" style="width: 15%; border: none; border-top: 8px solid; margin-top: 0; margin-bottom: 0px; color: #ae7373;" />
             <hr class="mx-auto" style="width: 80%; border: none; border-top: 3px solid; margin-top: 0; margin-bottom: 10px; color: #ae7373;" />
             <div class="position-relative d-flex align-items-center justify-content-center">
@@ -294,17 +301,17 @@
           <div class="row">
             <div class="col-12 text-center mb-2 pt-4">
                <ul class="list-inline mb-4" id="portfolio-flters">
-                  <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">Todo</li>
-                  <li class="btn btn-sm btn-outline-primary m-1 filter-design" data-filter=".first">Diseño</li>
-                  <li class="btn btn-sm btn-outline-primary m-1 filter-design" data-filter=".second">Desarrollo</li>
-                  <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
-               </ul>
+                  <li class="btn btn-sm btn-outline-primary m-1 active btn-todo" data-filter="*"><a href="https://www.behance.net/gallery/152513745/Portafolio">Todo</a></li>
+                  <li class="btn btn-sm btn-outline-primary m-1 filter-design btn-otros" data-filter=".first"><a href="https://michellifernandap.github.io/versionMFfinal/index.html">Diseño</a></li>
+                  <li class="btn btn-sm btn-outline-primary m-1 filter-design btn-otros" data-filter=".second"><a href="https://github.com/michellifernandap?tab=repositories">Desarrollo</a></li>
+                  <li class="btn btn-sm btn-outline-primary m-1 btn-otros" data-filter=".third"><a href="https://michellifernandap.github.io/versionMFfinal/Branding.html">Marketing</a></li>
+                </ul>
             </div>
           </div>
           <div class="row portfolio-container">
               <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                   <div class="position-relative overflow-hidden mb-2">
-                      <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
+                      <img class="img-fluid rounded w-100" src="./img/portafolio.png" alt="">
                       <div class="portfolio-btn d-flex align-items-center justify-content-center">
                           <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
                               <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -314,7 +321,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                   <div class="position-relative overflow-hidden mb-2">
-                      <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
+                      <img class="img-fluid rounded w-100" src="./img/producto-02.png" alt="">
                       <div class="portfolio-btn d-flex align-items-center justify-content-center">
                           <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
                               <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -324,7 +331,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                   <div class="position-relative overflow-hidden mb-2">
-                      <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
+                      <img class="img-fluid rounded w-100" src="./img/producto-04.png" alt="">
                       <div class="portfolio-btn d-flex align-items-center justify-content-center">
                           <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
                               <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -334,7 +341,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                   <div class="position-relative overflow-hidden mb-2">
-                      <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
+                      <img class="img-fluid rounded w-100" src="./img/producto-07.png" alt="">
                       <div class="portfolio-btn d-flex align-items-center justify-content-center">
                           <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
                               <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -344,7 +351,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                   <div class="position-relative overflow-hidden mb-2">
-                      <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
+                      <img class="img-fluid rounded w-100" src="./img/producto-10.png" alt="">
                       <div class="portfolio-btn d-flex align-items-center justify-content-center">
                           <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
                               <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -354,7 +361,7 @@
               </div>
               <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                   <div class="position-relative overflow-hidden mb-2">
-                      <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
+                      <img class="img-fluid rounded w-100" src="./img/producto-11.png" alt="">
                       <div class="portfolio-btn d-flex align-items-center justify-content-center">
                           <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
                               <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
@@ -372,7 +379,7 @@
                     <!-- SERVICIOS -->
   <!--=======================================================-->
 <div class="container-fluid pb-4 pt-3 fondo">
-      <h2 class="about text-center">Servicios</h2>
+      <h2 class="about text-center" id="Servicios">Servicios</h2>
       <hr class="mx-auto" style="width: 15%; border: none; border-top: 8px solid; margin-top: 0; margin-bottom: 0px; color: #ae7373;" />
       <hr class="mx-auto" style="width: 80%; border: none; border-top: 3px solid; margin-top: 0; margin-bottom: 10px; color: #ae7373;" />
    <div class="position-relative d-flex align-items-center justify-content-center">
@@ -382,9 +389,9 @@
      <!-- Aquí se mostrarán las tarjetas de imágenes -->
    </div>
    <div class="d-flex justify-content-center mt-4">
-     <button id="load-more-button" class="btn" style="border: 2px solid #ae7373; color: #ae7373; background-color: transparent !important;">Ver más</button>
+     <button id="load-more-button" class="btn" style="border: 1px solid #ae7373; color: #ae7373; background-color: transparent !important;">Ver más</button>
      <span style="margin: 0 10px;"></span>
-     <button id="load-less-button" class="btn" style="border: 2px solid #ae7373; color: #ae7373; background-color: transparent !important; display: none;">Ver menos</button>
+     <button id="load-less-button" class="btn" style="border: 1px solid #ae7373; color: #ae7373; background-color: transparent !important; display: none;">Ver menos</button>
    </div>
  </div>
 </div>
@@ -394,7 +401,7 @@
   <!--=======================================================-->
 
 <div class="container-fluid pb-4 pt-3 fondo">
-   <h2 class="about text-center">Contacto</h2>
+   <h2 class="about text-center" id="Contacto">Contacto</h2>
    <hr class="mx-auto" style="width: 15%; border: none; border-top: 8px solid; margin-top: 0; margin-bottom: 0px; color: #ae7373;" />
    <hr class="mx-auto" style="width: 80%; border: none; border-top: 3px solid; margin-top: 0; margin-bottom: 10px; color: #ae7373;" />
 <div class="position-relative d-flex align-items-center justify-content-center">
@@ -407,22 +414,22 @@
          <div class="button-container px-5">
            <button class="vertical-button"><i class="fas fa-map-marker-alt"></i></button>
            <div class="button-info">
-             <span>Location:</span>
-             <span>A108 Adam Street, New York, NY 535022</span>
+             <span class="spam-text">Location:</span>
+             <span class="spam-text">A108 Adam Street, New York, NY 535022</span>
            </div>
          </div>
          <div class="button-container px-5">
            <button class="vertical-button"><i class="fas fa-phone"></i></button>
            <div class="button-info">
-             <span>Teléfono:</span>
-             <span>+1 123456789</span>
+             <span class="spam-text">Teléfono:</span>
+             <span class="spam-text">+1 123456789</span>
            </div>
          </div>
          <div class="button-container px-5">
            <button class="vertical-button"><i class="fas fa-envelope"></i></button>
            <div class="button-info">
-             <span>Email:</span>
-             <span>example@example.com</span>
+             <span class="spam-text">Email:</span>
+             <span class="spam-text">example@example.com</span>
            </div>
          </div>
        </div>
@@ -448,7 +455,7 @@
           </div>
           
          <!-- Submit button -->
-         <button type="submit" class="btn btn-block" style="border: 2px solid #ae7373; color: #ae7373; background-color: transparent !important">Subscribe</button>
+         <button type="submit" class="btn btn-block" style="border: 2px solid #ae7373; color: #ae7373; background-color: transparent !important">Subscribete</button>
        </form>
      </div>
    </div>
@@ -467,7 +474,7 @@
        <!-- Facebook -->
        <a
          class="btn btn-link btn-floating btn-lg text-custom-color m-1"
-         href="#!"
+         href="https://www.facebook.com/michelligraphic/"
          role="button"
          data-mdb-ripple-color="dark"
          ><i class="fab fa-facebook-f"></i
@@ -476,7 +483,7 @@
        <!-- Twitter -->
        <a
          class="btn btn-link btn-floating btn-lg text-custom-color m-1"
-         href="#!"
+         href="https://twitter.com/Stationary_WL"
          role="button"
          data-mdb-ripple-color="dark"
          ><i class="fab fa-twitter"></i
@@ -485,7 +492,7 @@
        <!-- Google -->
        <a
          class="btn btn-link btn-floating btn-lg text-custom-color m-1"
-         href="#!"
+         href="mailto:michellifernanda.fp@gmail.com"
          role="button"
          data-mdb-ripple-color="dark"
          ><i class="fab fa-google"></i
@@ -494,7 +501,7 @@
        <!-- Instagram -->
        <a
          class="btn btn-link btn-floating btn-lg text-custom-color m-1"
-         href="#!"
+         href="https://www.instagram.com/michelligraphic/"
          role="button"
          data-mdb-ripple-color="dark"
          ><i class="fab fa-instagram"></i
@@ -503,7 +510,7 @@
        <!-- Linkedin -->
        <a
          class="btn btn-link btn-floating btn-lg text-custom-color m-1"
-         href="#!"
+         href="https://www.linkedin.com/in/michelli-fernanda-7835691b5/"
          role="button"
          data-mdb-ripple-color="dark"
          ><i class="fab fa-linkedin"></i
@@ -511,11 +518,21 @@
        <!-- Github -->
        <a
          class="btn btn-link btn-floating btn-lg text-custom-color m-1"
-         href="#!"
+         href="https://github.com/michellifernandap?tab=repositories"
          role="button"
          data-mdb-ripple-color="dark"
          ><i class="fab fa-github"></i
        ></a>
+
+
+       <a
+       class="btn btn-link btn-floating btn-lg text-custom-color m-1"
+       href="https://www.behance.net/dreamsbigmf"
+       role="button"
+       data-mdb-ripple-color="dark"
+       ><i class="fab fa-behance"></i
+     ></a>
+
      </section>
      <!-- Section: Social media -->
    </div>
@@ -523,7 +540,7 @@
  
    <!-- Copyright -->
    <div class="text-center text-custom-color p-3" style="background-color: #ffffff">
-     © 2020 Copyright:
+     © 2023 Copyright:
      <a class="text-dark" href="https://github.com/michellifernandap?tab=repositories">Michellifernandap</a>
    </div>
    <!-- Copyright -->
