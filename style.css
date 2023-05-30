@@ -7,6 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/***** BODY ******/
 
 body {
   display: grid;
@@ -17,6 +18,7 @@ body {
   overflow-x: hidden;
 }
 
+/***** BUTTON NAVBAR******/
 .floating-button {
   position: fixed;
   bottom: 20px;
@@ -36,6 +38,8 @@ body {
 .floating-button:hover {
   background-color: #e5c0c0;
 }
+
+/***** LOGO NAVBAR******/
 
 .logo-stationary{
 margin-left: 20px;
@@ -58,6 +62,8 @@ padding-top: 10px;
   margin: 0px;
 }
 
+/***** ANIMACION TEXTO NAVBAR******/
+
 #text-effect {
   display: inline-block;
   font-family: 'Champagne & Limousines';
@@ -74,6 +80,8 @@ padding-top: 10px;
   color: #ae7373;
   margin: 0px;
 }
+
+/***** ICONOS NAVBAR******/
 
 .social-icon i {
   color: #ae7373;
@@ -218,14 +226,8 @@ padding-top: 10px;
   color: #ae7373;
 }
 
-/*
 
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-*/
+/***** SOBRE MÍ ******/
 
 .about {
   font-family: 'Rochie' !important;
@@ -234,7 +236,6 @@ padding-top: 10px;
 }
 
   .fondo {
-    /*min-height: 100%;*/
     background: #ffffff;
     height: 100%;
   }
@@ -245,6 +246,8 @@ padding-top: 10px;
   font-weight: bold;
   font-size: 20px;
 }
+
+/***** IMG SOBRE MÍ ******/
 
   .img-sm {
     width: 80%;
@@ -311,6 +314,7 @@ padding-top: 10px;
     font-family: 'Rochie';
   }
 
+  /***** PORTAFOLIO ******/
 
   .portfolio-item .portfolio-btn {
     position: absolute;
@@ -361,6 +365,7 @@ padding-top: 10px;
 }
 
 
+/***** SERVICIOS ******/
 
 #load-more-button:hover,
 #load-more-button:focus {
@@ -387,6 +392,8 @@ padding-top: 10px;
   align-items: center;
   margin-top: 10px;
 }
+
+/***** CONTACTO ******/
 
 .vertical-button {
   display: flex;
@@ -417,13 +424,13 @@ padding-top: 10px;
 }
 
 .custom-checkbox input[type="checkbox"]::before {
-  border-color: #ae7373; /* Cambia el color del borde del cuadro */
-  background-color: #ae7373; /* Cambia el color de fondo del cuadro */
+  border-color: #ae7373;
+  background-color: #ae7373;
 }
 
 .custom-checkbox input[type="checkbox"]:checked::before {
-  border-color: #be8787; /* Cambia el color del borde del cuadro cuando está seleccionado */
-  background-color: #be8787; /* Cambia el color de fondo del cuadro cuando está seleccionado */
+  border-color: #be8787;
+  background-color: #be8787;
 }
 
 
@@ -442,19 +449,19 @@ padding-top: 10px;
 
 
 .form-outline input {
-  border-color: #ae7373; /* Cambia el color del borde a #ae7373 */
+  border-color: #ae7373;
 }
 
 .form-label
 .form-check {
-  font-family: 'Champagne & Limousines', 'Rochie'; /* Cambia la tipografía a 'Champagne & Limousines' */
+  font-family: 'Champagne & Limousines', 'Rochie'; 
   font-weight: bold;
 }
 
 
 .container-fluid,
 .button-info {
-  font-family: 'Champagne & Limousines', 'Rochie'; /* Cambia la tipografía a 'Champagne & Limousines' */
+  font-family: 'Champagne & Limousines', 'Rochie';
 }
 
 .spam-text {
@@ -464,34 +471,34 @@ padding-top: 10px;
 }
 
 .list-inline li a {
-  color:#d59d9d; /* Cambia #ff0000 al color deseado */
+  color:#d59d9d; 
 }
 
 .list-inline li a:hover {
-  color: #e5c0c0; /* Cambia #00ff00 al color deseado para el hover */
+  color: #e5c0c0; 
 }
 
 
 
 .list-inline .btn.btn-todo {
-  color: #d59d9d; /* Cambia #00ff00 al color de tipografía deseado */
+  color: #d59d9d; 
 }
 .list-inline .btn.btn-todo a {
-  color: #ffffff; /* Cambia #00ff00 al color de tipografía deseado */
+  color: #ffffff;
 }
 
 
 .list-inline .btn.btn-otros {
-  color: #e5c0c0; /* Cambia #00ff00 al color de tipografía deseado */
+  color: #e5c0c0;
   background-color: #e5c0c0;
 }
 .list-inline .btn.btn-otros a {
-  color: #ffffff; /* Cambia #00ff00 al color de tipografía deseado */
+  color: #ffffff; 
 }
 
 
 button.btn.btn-block {
-  background-color: #ae7373; /* Cambia #ae7373 al color de fondo deseado */
+  background-color: #ae7373;
 }
 
 button.btn.btn-block:active,
